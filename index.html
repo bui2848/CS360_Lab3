@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab3 - Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Gallery -->
+    <div class="row">
+      <div class="col-lg-3 col-md-12 mb-4 mb-lg-0 mt-4">
+        <img
+          src="https://www.uidaho.edu/-/media/UIdaho-Responsive/Images/academics/general-education/sliders/slider2.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal1" />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/University_of_Idaho_%22I%22_logo.svg/800px-University_of_Idaho_%22I%22_logo.svg.png"
+          class="w-100 shadow-1-strong rounded mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal2" />
+      </div>
+
+      <div class="col-lg-3 mb-4 mb-lg-0 mt-4">
+        <img src="https://cdn.britannica.com/85/116585-004-5F6199DA.jpg" class="w-100 shadow-1-strong rounded mb-4"
+          data-bs-toggle="modal" data-bs-target="#exampleModal3" />
+        <img src="https://pa-hrsuite-production.s3.amazonaws.com/1315/docs/126582.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal4" />
+      </div>
+
+      <div class="col-lg-3 mb-4 mb-lg-0 mt-4">
+        <img src="https://pbs.twimg.com/media/FoeQU6rWAAELqIU.jpg" class="w-100 shadow-1-strong rounded mb-4"
+          data-bs-toggle="modal" data-bs-target="#exampleModal5" />
+        <img src="https://i.pinimg.com/originals/ca/63/4e/ca634e7480391a043033253c39b6b27f.jpg"
+          class="w-100 shadow-1-strong rounded mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal6" />
+      </div>
+
+      <!-- Navigation Menu -->
+      <div class="col-lg-3 mb-4 mb-lg-0 mt-4">
+        <ul class="nav flex-column">
+          <h1 align="right">UIDAHO</h1>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" align="right">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://google.com/photos" target="_blank" align="right">PHOTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://rytr.me/use-cases/social-media-bio" target="_blank" align="right">BIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.blogger.com" target="_blank" align="right">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#formModal" align="right">CONTACT</a>
+          </li>
+        </ul> <br>
+        <ul align="right">
+          <a class="navbar-brand" href="http://facebook.com" target="_blank">
+            <img src="https://i.pinimg.com/originals/ea/18/f4/ea18f407cfaed0202d265cf6cf1ac62b.png" width="30"
+              height="30">
+          </a> &nbsp;&nbsp;
+
+          <a class="navbar-brand" href="http://twitter.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/81/81609.png" width="30" height="30">
+          </a> &nbsp;&nbsp;
+
+          <a class="navbar-brand" href="http://instagram.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" width="30" height="30">
+          </a>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal Image 1-->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Image</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img
+            src="https://www.uidaho.edu/-/media/UIdaho-Responsive/Images/academics/general-education/sliders/slider2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Image 2-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Image</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/University_of_Idaho_%22I%22_logo.svg/800px-University_of_Idaho_%22I%22_logo.svg.png"
+            class="w-100 shadow-1-strong rounded mb-4">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Image 3-->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Image</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://cdn.britannica.com/85/116585-004-5F6199DA.jpg" class="w-100 shadow-1-strong rounded mb-4">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Image 4-->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Image</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://pa-hrsuite-production.s3.amazonaws.com/1315/docs/126582.jpg"
+            class="w-100 shadow-1-strong rounded mb-4">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Image 5-->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Image</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://pbs.twimg.com/media/FoeQU6rWAAELqIU.jpg" class="w-100 shadow-1-strong rounded mb-4">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Image 6-->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Image</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://i.pinimg.com/originals/ca/63/4e/ca634e7480391a043033253c39b6b27f.jpg"
+            class="w-100 shadow-1-strong rounded mb-4">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Modal Form-->
+  <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Form</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName1" class="form-label">Your Name</label>
+              <input type="name" class="form-control" id="exampleInputName1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputText1" class="form-label">Message you want to send</label>
+              <input type="text" class="form-control" id="exampleInputText1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Send me more info</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
